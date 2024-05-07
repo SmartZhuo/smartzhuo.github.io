@@ -2,3 +2,8 @@ baseURL = 'https://smartzhuo.github.io/'
 languageCode = 'en-us'
 title = 'Zhuo Wu Blog'
 theme = 'ananke'
+[params]
+  subtitle = 'contact me'
+  [params.contact]
+    email = 'zhuonbg@gmail.com'
+    phone = '+49 176-8593-3340'
