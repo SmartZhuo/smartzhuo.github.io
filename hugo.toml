@@ -1,6 +1,6 @@
 baseURL = 'https://smartzhuo.github.io/'
 languageCode = 'en-us'
-title = 'Zhuo Wu Blog'
+title = 'Zhuo is here'
 theme = 'ananke'
 [params]
   subtitle = 'contact me'
