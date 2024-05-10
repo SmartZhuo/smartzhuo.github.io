@@ -40,8 +40,3 @@ name = "linkedin"
 url = "https://www.linkedin.com/in/zhuo-wu-762383268/"
 
 
-[services.disqus]
-  shortname = 'YOURSHORTNAME'
-
-[params]
-  commentoEnable = true
