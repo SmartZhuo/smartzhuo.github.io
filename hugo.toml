@@ -2,28 +2,40 @@ baseURL = 'https://smartzhuo.github.io/'
 languageCode = 'en-us'
 title = 'Zhuo is here'
 theme = 'ananke'
-pygmentsCodeFences = true
-pygmentsUseClasses = true
 
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[languages]
+  [languages.en]
+    title = "Ananke"
+    weight = 1
+    contentDir = "content/en"
+    # languageDirection = 'rtl' for Right-To-Left languages
+  [languages.fr]
+    title = "Ananke Fr"
+    weight = 2
+    contentDir = "content/fr"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
 [params]
-  author = 'Zhuo'
-  description = "全能小白"
-  email = 'zhuonbg@gmail.com'
-  phone = '+49 176-8593-3340'
-  rss = true
-  lastmod = true
-  userStatusEmoji = "😀"
-  favicon = "/images/github.png"
-  avatar = "/images/avatar.png"
-  headerIcon = "/images/GitHub-Mark-Light-32px.png"
-  location = "Germany"
-  enableGitalk = true
+  text_color = ""
+  author = ""
+  favicon = ""
+  site_logo = ""
+  description = "The last theme you'll ever need. Maybe."
+  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  recent_posts_number = 3
 
-  [[params.links]]
-    title = "Link"
-    href = "https://github.com/meik2333"
-  [[params.links]]
-    title = "Link2"
-    href = "https://meik2333.com"
-    icon = "https://meik2333.com/images/avatar.png"
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/GoHugoIO"
+
