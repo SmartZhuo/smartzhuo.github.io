@@ -11,7 +11,7 @@ enableRobotsTXT = true
 
 [languages]
   [languages.en]
-    title = "Ananke"
+    title = "Zhuo is here"
     weight = 1
     contentDir = "content/en"
     # languageDirection = 'rtl' for Right-To-Left languages
@@ -39,3 +39,9 @@ enableRobotsTXT = true
 name = "linkedin"
 url = "https://www.linkedin.com/in/zhuo-wu-762383268/"
 
+
+[services.disqus]
+  shortname = 'YOURSHORTNAME'
+
+[params]
+  commentoEnable = true
